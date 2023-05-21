@@ -98,7 +98,9 @@
 }
 
 #info {
+    position: relative;
     border-radius: 35px;
+    left: 9em;
 }
 
 .download-bottom,.download-top,.what {
@@ -219,4 +221,93 @@
     bottom: 11em;
     font-size: 25px;
     line-height: 26px;
+}
+
+@media (min-width: 768px) {
+    .logo {
+        position: relative;
+        width: 33.33%;
+        left: 8em;
+        margin-top: 2em;
+    }
+
+    .banner-mobile {
+        width: 168vw;
+        position: relative;
+        left: 14em;
+    }
+
+    .title {
+        top: 2em;
+        font-size: 56px;
+        line-height: 48px;
+        width: 65%;
+    }
+
+    .para {
+        position: relative;
+        left: 5em;
+        margin-top: 4em;
+        width: 95%;
+    }
+
+    .download-top {
+        padding: 1em 2em;
+    }
+
+    .section-first {
+        left: 3.5em;
+    }
+
+    .photo-row img {
+        width: 33vw;
+    }
+
+    .photo-row {
+        margin-right: 2.5em;
+    }
+
+    .photo-grid {
+        flex-direction: row;
+        position: relative;
+        left: 15em;
+    }
+
+    .photo-col,.photo-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        top: 0;
+        left: 0;
+    }
+
+    .subtitle,.title-txt,.txt-second {
+        bottom: 9em;
+    }
+
+    .txt-second {
+        bottom: 15em;
+        left: 5.5em;
+    }
+
+    .section-second,.bottom,.bottom img, .bottom-txt {
+        position: relative;
+        bottom: 73em;
+    }
+    .section-second {
+        top: -5em;
+    }
+    .bottom-txt {
+        margin-bottom: -130em;
+        text-align: center;
+    }
+
+    .subtitle:last-of-type {
+        width: 25%;
+    }
+
+    body {
+        margin-right: 0;
+    }
 }
