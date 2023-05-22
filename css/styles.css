@@ -11,6 +11,10 @@
     margin-bottom: 6em;
 }
 
+.banner-desktop {
+    display: none;
+}
+
 .title,.para {
     text-align: center;
     position: relative;
@@ -343,5 +347,50 @@
 }
 
 @media (min-width:1440px) {
-    
+
+    .logo {
+        width: 15%;
+        position: relative;
+        left: 0;
+    }
+
+    .banner-mobile {
+        display: none;
+    }
+
+    .banner-desktop {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        position: relative;
+        left: 0;
+    }
+
+    .banner-left {
+        margin-right: 50vw;
+    }
+
+    .title {
+        font-size: 64px;
+        line-height: 64px;
+        width: 45%;
+        position: relative;
+        top: -5.6em;
+        left: 1em;
+    }
+
+    .para {
+        width: 40%;
+        font-size: 22px;
+        line-height: 26px;
+        position: relative;
+        left: 1em;
+        top: -20em;
+    }
+
+    .btn-top {
+        position: relative;
+        right: 6em;
+        top: -27em;
+    }
 }
