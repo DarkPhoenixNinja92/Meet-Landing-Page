@@ -393,4 +393,34 @@
         right: 6em;
         top: -27em;
     }
+
+    .section-first {
+        top: -6em;
+        left: 2em;
+    }
+
+    .photo-grid {
+        left: 0em;
+        bottom: 25em;
+    }
+
+    .photo-row {
+        left: 2em;
+    }
+
+    .photo-row img {
+        width: 18vw;
+    }
+
+    .bottom-txt {
+        width: 100vw;
+        height: 30vh;
+        top: 5em;
+    }
+
+    .bottom img {
+        width: 100vw;
+        height: 35%;
+        top: 145vh;
+    }
 }
