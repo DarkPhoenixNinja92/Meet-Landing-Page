@@ -15,6 +15,12 @@
     display: none;
 }
 
+.banner-mobile {
+    width: 125vw;
+    position: relative;
+    left: 1.5em;
+}
+
 .title,.para {
     text-align: center;
     position: relative;
@@ -22,8 +28,8 @@
 }
 
 .para {
-    left: 3.6em;
-    width: 150%;
+    left: 2.6em;
+    width: 100%;
 }
 
 .download-top,.what {
@@ -44,7 +50,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 5.87em;
+    left: 2.87em;
     margin-top: 15em;
 }
 
@@ -68,7 +74,7 @@
 }
 
 .photo-row img {
-    width: 72vw;
+    width: 60vw;
     border-radius: 15px;
 }
 
@@ -178,7 +184,7 @@
     z-index: 50;
     position: relative;
     top: 47.9em;
-    width: 159vw;
+    width: 130vw;
     height: 70vh;
     z-index: 10;
     padding-bottom: 0;
@@ -192,12 +198,12 @@
     justify-content: center;
     position: relative;
     z-index: 100;
-    width: 227.3%;
+    width: 160vw;
     height: 85.4vh;
     bottom: 0;
     left: 0;
     background-color: #4D96A9;
-    padding-bottom: 0;
+    padding-bottom: 7px;
     opacity: 85%;
 }
 
@@ -304,7 +310,7 @@
         bottom: 73em;
     }
     .section-second {
-        top: -5em;
+        top: -6em;
     }
     .bottom-txt {
         margin-bottom: -120em;
@@ -324,7 +330,7 @@
     .txt-third,.download-bottom {
         position: relative;
         left: 8em;
-        bottom: 4em;
+        bottom: 0;
     }
 
     .subtitle:first-of-type {
@@ -340,9 +346,24 @@
     #final {
         z-index: 400;
         position: absolute;
-        bottom: 65vh;
+        bottom: 45vh;
         left: 22vw;
         color: #fff;
+    }
+
+    .bottom img {
+        width: 163vw;
+        height: 65vh;
+        bottom: 0;
+    }
+
+    .bottom-txt {
+        width: 226vw;
+        height: 70vh;
+    }
+
+    .txt-second {
+        margin-bottom: 9em;
     }
 }
 
@@ -367,7 +388,12 @@
     }
 
     .banner-left {
-        margin-right: 50vw;
+        margin-right: 52vw;
+    }
+
+    .banner-right {
+        position: relative;
+        left: 7em;
     }
 
     .title {
@@ -413,14 +439,40 @@
     }
 
     .bottom-txt {
-        width: 100vw;
-        height: 30vh;
-        top: 5em;
+        width: 115vw;
+        height: 33vh;
+        top: 3em;
     }
 
     .bottom img {
-        width: 100vw;
+        width: 107.6vw;
         height: 35%;
         top: 145vh;
+    }
+
+    .txt-second {
+        width: 65%;
+    }
+
+    .txt-second,.title-txt,.subtitle:first-of-type {
+        left: 0;
+        bottom: 12em;
+    }
+
+    #final {
+        bottom: 6em;
+        left: -21em;
+    }
+
+    .txt-third {
+        left: 2em;
+        top: 2em;
+        width: 30%;
+    }
+
+    .download-bottom {
+        position: relative;
+        left: 27em;
+        bottom: 2.5em;
     }
 }
