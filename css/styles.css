@@ -9,7 +9,11 @@
 }
 
 .banner-mobile,.photo-row img {
-    max-width: 370px;
+    max-width: 360px;
+}
+
+.container {
+    color: #87879D;
 }
 
 .container,.btn-top {
@@ -27,6 +31,161 @@
     margin: 1.2em 0 1.2em 0;
 }
 
+.title {
+    text-align: center;
+    width: 65%;
+    font-size: 34px;
+    color: #28283D;
+    margin: 1em 0 1em 0;
+}
+
+.para {
+    font-weight: 600;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.btn-top button,.download-bottom {
+    padding: 1em 2em 1em 2em;
+    border: none;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 800;
+}
+
+.download-top {
+    background: #4D96A9;
+}
+
+.download-top span {
+    color: #8FE3F9;
+}
+
+.what {
+    background: #855FB1;
+}
+
+.section-first,.section-second {
+    border-radius: 50%;
+    font-size: 29px;
+    line-height: 26px;
+    padding: 1em;
+    border: 1px solid #87879D;
+    position: relative;
+}
+
+.section-first {
+    top: 4em;
+}
+
+.section-second {
+    top: 2em;
+    z-index: 200;
+    background: #FFFFFF;
+}
+
+.photo-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 0.75em;
+    margin: 15em 0 9em 0;
+}
+
+.photo-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-second,.row-third {
+    position: relative;
+    left: 1.3em;
+}
+
+.col-third {
+    position: relative;
+}
+
+.col-third,.row-third {
+    top: 2em;
+}
+
+.photo-row img {
+    width: 45vw;
+    border-radius: 15px;
+}
+
+.subtitle:first-of-type {
+    font-size: 18px;
+    color: #4D96A9;
+    letter-spacing: 4px;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-top: 11em;
+}
+
+.title-txt {
+    color: #28283D;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    width: 65%;
+    margin: 1em 0 1em 0;
+}
+
+.txt-second {
+    color: #87879D;
+    font-size: 18px;
+    line-height: 26px;
+    width: 75%;
+}
+
+.title-txt,.txt-second {
+    text-align: center;
+}
+
 .footer-img {
+    display: none;
+}
+
+.footer-img-mobile {
     max-width: 375px;
+    position: absolute;
+    left: 0;
+    bottom: 100;
+}
+
+.download-bottom {
+    background-color: #855FB1;
+    position: relative;
+    bottom: 9em;
+    left: 0.5em;
+}
+
+.bottom-txt {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+    height: 430px;
+    background-color: #4D96A9;
+    padding-bottom: 7px;
+    opacity: 85%;
+}
+
+.txt-third {
+    width: 90%;
+    position: relative;
+    bottom: 6em;
+    font-size: 25px;
+    line-height: 26px;
 }
