@@ -189,3 +189,58 @@
     font-size: 25px;
     line-height: 26px;
 }
+
+@media (min-width: 768px) {
+
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .banner-mobile,.photo-row img {
+        max-width: 830px;
+    }
+
+    .logo {
+        max-width: 119px;
+    }
+
+    .btn-top {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .download-top {
+        margin-right: 15px;
+    }
+
+    .photo-grid {
+        flex-direction: row;
+        max-width: 689px;
+        left: -0.65em;
+    }
+
+    .row-second,.row-third {
+        position: relative;
+        left: 1.3em;
+    }
+
+    .photo-row img {
+        max-width: 172.25px;
+    }
+
+    .col-third {
+        left: 1.5em;
+        top: 0;
+    }
+
+    .row-third {
+        left: 2.5em;
+        top: 0;
+    }
+
+    .col-first {
+        position: relative;
+        left: -1em;
+    }
+}
