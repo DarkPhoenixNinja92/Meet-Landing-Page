@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.banner-desktop {
+.banner-desktop,.footer-img-tablet {
     display: none;
 }
 
@@ -205,6 +205,15 @@
         max-width: 119px;
     }
 
+    .title {
+        width: 25%;
+    }
+
+    .para {
+        font-size: 18px;
+        width: 55%;
+    }
+
     .btn-top {
         flex-direction: row;
         justify-content: space-between;
@@ -242,5 +251,38 @@
     .col-first {
         position: relative;
         left: -1em;
+    }
+
+    .title-txt {
+        width: 35%;
+    }
+
+    #final,.download-bottom {
+        position: relative;
+    }
+
+    #final {
+        bottom: 5em;
+    }
+
+    #final,.txt-third {
+        color: #fff;
+        text-align: center;
+    }
+
+    .txt-third,.download-bottom {
+        bottom: 2em;
+    }
+
+    .footer-img-mobile {
+        display: none;
+    }
+
+    .footer-img-tablet {
+        display: initial;
+        max-width: 768px;
+        position: absolute;
+        left: 0;
+        bottom: 100;
     }
 }
