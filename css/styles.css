@@ -288,6 +288,12 @@
 }
 
 @media (min-width: 1440px) {
+
+    button:hover {
+        cursor: pointer;
+        opacity: 55%;
+    }
+
     .logo {
         max-width: 661px;
     }
