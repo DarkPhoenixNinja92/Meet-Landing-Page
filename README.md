@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Code Repository](https://github.com/DarkPhoenixNinja92/meet-landing-page)
-- Live Site URL: [GitHub Live Site](https://darkphoenixninja92.github.io/meet-landing-page)
+- Solution URL: [GitHub Code Repository](https://github.com/ShaunPour/meet-landing-page)
+- Live Site URL: [GitHub Live Site](https://ShaunPour.github.io/meet-landing-page)
 
 ### Built with
 
